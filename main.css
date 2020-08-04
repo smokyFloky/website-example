@@ -1,0 +1,1127 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        margin: 0;
+        text-align: center;
+        font-family: 'Mulish', sans-serif;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    /*eader
+
+=================== */
+    
+    header {
+        position: absolute;
+        margin-top: 1px;
+    }
+    
+    .topnav {
+        display: none;
+    }
+    
+    .hero-tonight {
+        background-image: url('../snap-test/desk.png');
+        margin-left: -122px;
+        background-size: cover;
+        height: 282px;
+    }
+    
+    .snapimage {
+        margin-right: 142px;
+        /* padding-bottom: 30px 30px; */
+    }
+    
+    .snapimg {
+        position: absolute;
+        width: 140px;
+        height: 105px;
+        margin-bottom: 176px;
+        box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.7);
+    }
+    
+    .container {
+        height: 51px;
+        overflow: hidden;
+    }
+    
+    .container .text-hero {
+        position: absolute;
+        font-size: 12px;
+        left: 160px;
+        top: 143px;
+        bottom: 88px;
+        color: white;
+        text-align: left;
+        overflow: hidden;
+    }
+    
+    .desction {
+        height: 448px;
+        width: 289px;
+        position: relative;
+    }
+    
+    .title-snap {
+        margin-top: 35px;
+        margin-left: 16px;
+        font-size: 1.1em;
+    }
+    
+    .myrath {
+        margin-left: 15px;
+        text-align: left;
+        font-size: 0.8em;
+        line-height: 18px;
+    }
+    
+    .maglien {
+        width: 289px;
+        height: 45px;
+        background-color: orange;
+        border: none;
+        color: black;
+        text-align: center;
+        display: inline-block;
+        margin-top: 34px;
+        margin-left: 15px;
+        margin-bottom: 53px;
+    }
+    
+    .secteurs-touches {
+        background-image: url('../snap-test/bg.png');
+        width: 320px;
+        height: 674px;
+        position: relative;
+    }
+    
+    .sabaton {
+        position: absolute;
+        width: 188px;
+        height: 29px;
+        margin-top: 34px;
+        margin-left: 20px;
+        color: white;
+    }
+    
+    .unstyled-list {
+        list-style: none;
+    }
+    
+    .col-1 {
+        position: absolute;
+        width: 222px;
+        height: 158px;
+        margin-top: 85px;
+        margin-bottom: 434px;
+        color: white;
+        line-height: 25px;
+        font-size: 0.8em;
+    }
+    
+    .col-2 {
+        position: absolute;
+        width: 222px;
+        height: 158px;
+        margin-top: 215px;
+        margin-bottom: 30px;
+        color: white;
+        line-height: 25px;
+        font-size: 0.8em;
+    }
+    
+    .col-3 {
+        position: absolute;
+        width: 222px;
+        height: 158px;
+        margin-top: 350px;
+        color: white;
+        line-height: 25px;
+        font-size: 0.8em;
+    }
+    
+    #ch::before {
+        content: "• ";
+        color: orange;
+        /* or whatever color you prefer */
+        font-size: 1.5em;
+        /* margin-left: 5px; */
+    }
+    
+    .pdfbut {
+        position: relative;
+        width: 289px;
+        height: 45px;
+        background-color: orange;
+        margin-top: 570px;
+        margin-bottom: 50px;
+        border: none;
+        color: black;
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .photo-style {
+        width: 320px;
+        height: 320px;
+    }
+    
+    .imaginary {
+        width: 160px;
+        height: 160px;
+        float: left;
+    }
+    
+    .about-us {
+        position: absolute;
+        background-image: url('../snap-test/bgweird.png');
+        width: 320px;
+        height: 409px;
+        color: whitesmoke;
+    }
+    
+    .col-4 {
+        width: 140px;
+        height: 189px;
+        font-size: 10px;
+        margin-top: 33px;
+        margin-left: 90px;
+    }
+    
+    .col-6 {
+        margin-top: 30px;
+    }
+    
+    .col-7 {
+        margin-top: 23px;
+        font-size: 10px;
+    }
+    
+    .contact-us {
+        position: relative;
+        width: 206px;
+        height: 51px;
+        margin-top: 261px;
+        margin-left: 57px;
+    }
+    
+    .col-5 {
+        margin-top: 48px;
+    }
+    
+    .primo {
+        list-style: none;
+        line-height: 20px;
+    }
+    
+    .color-me {
+        position: relative;
+        color: rgb(247, 173, 36);
+        font-size: 1em;
+    }
+    
+    .title-contact {
+        color: white;
+        font-size: 0.7em;
+    }
+    
+    .stuff-ic {
+        width: 176px;
+        height: 20px;
+        margin-top: 37px;
+        margin-right: 73px;
+    }
+    
+    .social-icons {
+        list-style: none;
+        display: flex;
+        color: white;
+    }
+    
+    .fa-facebook {
+        padding: 5px 5px;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+    
+    .fa-facebook:hover {
+        background-color: #3d5b99;
+    }
+    
+    .fa-twitter {
+        padding: 5px 5px;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+    
+    .fa-twitter:hover {
+        background-color: #00aced;
+    }
+    
+    .fa-instagram {
+        padding: 5px 5px;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+    
+    .fa-instagram:hover {
+        background-color: #E1306C;
+    }
+    
+    .fa-linkedin {
+        padding: 5px 5px;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+    
+    .fa-linkedin:hover {
+        background-color: #0073a4;
+    }
+    
+    .fa-youtube {
+        padding: 5px 5px;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+    
+    .fa-youtube:hover {
+        background-color: #b94314;
+    }
+    
+    .col-f {
+        width: 320px;
+        height: 56px;
+        margin-top: 100px;
+    }
+    
+    .final-sentence {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 0.7em;
+        color: black;
+    }
+    
+    .except {
+        font-size: 12px;
+        color: orange;
+    }
+    
+    .par {
+        font-size: 12px;
+        color: black;
+        /* content: "\A";
+        display: block; */
+    }
+    /*
+    **
+
+    *
+    *
+    *
+    *
+    *
+    *
+    *    768 PX
+    *
+    */
+    
+    @media only screen and (min-width: 768px) {
+        header {
+            position: absolute;
+            margin-top: 1px;
+        }
+        nav ul {
+            display: none;
+        }
+        .hero-tonight {
+            background-image: url('../snap-test/desk.png');
+            margin-left: -121px;
+            background-size: cover;
+            height: 506px;
+        }
+        .snapimage {
+            margin-right: 190px;
+            /* padding-bottom: 30px 30px; */
+        }
+        .snapimg {
+            position: absolute;
+            width: 190px;
+            height: 144px;
+            margin-bottom: 176px;
+            box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.7);
+        }
+        .container {
+            width: 271px;
+            height: 116px;
+            overflow: hidden;
+        }
+        .container .text-hero {
+            position: absolute;
+            margin-left: 290px;
+            margin-top: 80px;
+            font-size: 28px;
+            color: white;
+            text-align: left;
+            overflow: hidden;
+        }
+        .desction {
+            height: 316px;
+            width: 668px;
+            position: relative;
+            margin-left: 50px;
+            margin-top: 49px;
+        }
+        .title-snap {
+            margin-top: 35px;
+            margin-left: 16px;
+            font-size: 1.5em;
+        }
+        .myrath {
+            margin-left: 15px;
+            text-align: center;
+            font-size: 1em;
+            line-height: 18px;
+        }
+        .maglien {
+            width: 256px;
+            height: 45px;
+            background-color: orange;
+            border: none;
+            color: black;
+            text-align: center;
+            display: inline-block;
+            margin-top: 34px;
+            margin-left: 15px;
+            margin-bottom: 53px;
+        }
+        .secteurs-touches {
+            background-image: url('../snap-test/bg.png');
+            width: 768px;
+            height: 435px;
+            position: relative;
+        }
+        .sabaton {
+            position: absolute;
+            width: 188px;
+            height: 29px;
+            margin-top: 60px;
+            margin-left: 291px;
+            color: white;
+            font-size: 1.5em;
+        }
+        .unstyled-list {
+            display: inline;
+            list-style: none;
+        }
+        .col-1 {
+            position: absolute;
+            width: 222px;
+            height: 158px;
+            margin-top: 128px;
+            color: white;
+            line-height: 25px;
+            font-size: 0.8em;
+            margin-left: 49px;
+        }
+        .col-2 {
+            position: absolute;
+            width: 222px;
+            height: 158px;
+            margin-top: 128px;
+            color: white;
+            line-height: 25px;
+            font-size: 0.8em;
+            margin-left: 273px;
+        }
+        .col-3 {
+            position: absolute;
+            width: 222px;
+            height: 158px;
+            color: white;
+            line-height: 25px;
+            font-size: 0.8em;
+            margin-top: 128px;
+            margin-left: 497px;
+        }
+        #ch::before {
+            content: "• ";
+            color: orange;
+            /* or whatever color you prefer */
+            font-size: 1.5em;
+            /* margin-left: 5px; */
+        }
+        .pdfbut {
+            position: relative;
+            width: 271px;
+            height: 45px;
+            background-color: orange;
+            margin-top: 320px;
+            border: none;
+            color: black;
+            text-align: center;
+            margin-left: 49px;
+        }
+        .photo-style {
+            width: 320px;
+            height: 322px;
+            display: inline;
+        }
+        .imaginary {
+            width: 192px;
+            height: 193px;
+        }
+        .about-us {
+            position: absolute;
+            background-image: url('../snap-test/bgweird.png');
+            width: 768px;
+            height: 435px;
+            color: white;
+            margin-top: 193px;
+        }
+        .col-4 {
+            width: 163px;
+            height: 216px;
+            font-size: 12px;
+            margin-top: 80px;
+            margin-left: 70px;
+            text-align: left;
+        }
+        .col-6 {
+            margin-top: 30px;
+        }
+        .col-7 {
+            margin-top: 23px;
+            font-size: 12px;
+        }
+        .contact-us {
+            position: relative;
+            width: 206px;
+            height: 51px;
+            margin-top: 280px;
+            margin-left: 517px;
+        }
+        .col-5 {
+            text-align: left;
+            line-height: 10px;
+        }
+        .title-contact {
+            font-size: 1em;
+        }
+        .color-me {
+            position: relative;
+            color: rgb(247, 173, 36);
+            font-size: 1.5em;
+        }
+        .stuff-ic {
+            width: 176px;
+            height: 20px;
+            margin-top: 135px;
+            margin-right: 71px;
+        }
+        .fa-facebook {
+            padding: 10px 10px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+        }
+        .fa-twitter {
+            padding: 10px 10px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+        }
+        .fa-instagram {
+            padding: 10px 10px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+        }
+        .fa-linkedin {
+            padding: 10px 10px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+        }
+        .fa-youtube {
+            padding: 10px 10px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+        }
+        .fa-facebook:hover {
+            background-color: #3d5b99;
+        }
+        .fa-twitter:hover {
+            background-color: #00aced;
+        }
+        .fa-instagram:hover {
+            background-color: #E1306C;
+        }
+        .fa-youtube:hover {
+            background-color: #b94314;
+        }
+        .col-f {
+            width: 768px;
+            height: 30px;
+            margin-top: 300px;
+            white-space: nowrap;
+        }
+        .final-sentence {
+            color: black;
+            font-size: 12px;
+        }
+        .except {
+            font-size: 12px;
+            color: orange;
+        }
+        .par {
+            font-size: 12px;
+            color: black;
+        }
+    }
+    /*
+    **
+
+    *
+    *
+    *
+    *
+    *
+    *
+    *    1024px
+    *
+    */
+    
+    @media only screen and (min-width: 1024px) {
+        /* nav ul {
+            width: 1024px;
+            height: 80px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: inline-block;
+            position: absolute;
+            overflow: auto;
+        }
+        nav li {
+            display: inline-block;
+        }
+        nav a {
+            display: block;
+            color: black;
+            text-align: center;
+            width: 150px;
+            text-decoration: none;
+            margin-bottom: 60px;
+        }
+        nav a:hover {
+            border-top: solid rgb(3, 145, 3);
+        } */
+        .topnav {
+            display: grid;
+            width: 1024px;
+            height: 80px;
+            list-style-type: none;
+            position: relative;
+            margin: auto;
+        }
+        .topnav .wrapper {
+            width: 517px;
+            height: 19px;
+            margin-left: 267px;
+        }
+        .topnav .ff {
+            float: left;
+            display: block;
+            text-align: center;
+            width: 125px;
+        }
+        .topnav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 6px 10px;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 20px;
+            width: 125px;
+        }
+        .topnav .ff:hover {
+            border-top: solid rgb(3, 145, 3);
+        }
+        .hero-tonight {
+            background-image: url('../snap-test/desk.png');
+            height: 617px;
+            margin-left: -106px;
+            background-size: cover;
+            padding: 60px 60px;
+        }
+        .snapimage {
+            margin-right: 142px;
+            /* padding-bottom: 30px 30px; */
+        }
+        .snapimg {
+            position: absolute;
+            width: 190px;
+            height: 144px;
+            margin-bottom: 176px;
+            box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.7);
+        }
+        .container {
+            width: 355.29px;
+            height: 108px;
+            overflow: hidden;
+        }
+        .container .text-hero {
+            position: absolute;
+            margin-left: 433px;
+            top: 250px;
+            font-size: 28px;
+            color: white;
+            text-align: left;
+            overflow: hidden;
+        }
+        .desction {
+            height: 284px;
+            width: 880px;
+            position: relative;
+            margin-left: 73px;
+        }
+        .title-snap {
+            /* width: 347px;
+            height: 36px; */
+            margin-top: 71px;
+            left: 339.5px;
+            right: 337.5px;
+            font-size: 1.1em;
+        }
+        .myrath {
+            left: 73px;
+            text-align: center;
+            font-size: 11pxem;
+            line-height: 18px;
+        }
+        .maglien {
+            width: 256px;
+            height: 45px;
+            background-color: orange;
+            border: none;
+            color: black;
+            text-align: center;
+            display: inline-block;
+            margin-top: 34px;
+            left: 380px;
+            margin-bottom: 53px;
+        }
+        .secteurs-touches {
+            background-image: url('../snap-test/bg.png');
+            width: 1024px;
+            height: 487px;
+            position: relative;
+        }
+        .sabaton {
+            width: 325px;
+            height: 36px;
+            color: white;
+            font-size: 1.5em;
+            margin-left: 325.5px;
+            margin-top: 71px;
+        }
+        .unstyled-list {
+            display: inline;
+            list-style: none;
+        }
+        .col-1 {
+            position: absolute;
+            width: 256px;
+            height: 188px;
+            margin-top: 96px;
+            color: white;
+            line-height: 25px;
+            font-size: 0.8em;
+            margin-left: 89px;
+        }
+        .col-2 {
+            position: absolute;
+            width: 256px;
+            height: 188px;
+            margin-top: 96px;
+            color: white;
+            line-height: 25px;
+            font-size: 0.8em;
+            margin-left: 364px;
+        }
+        .col-3 {
+            position: absolute;
+            width: 256px;
+            height: 188px;
+            color: white;
+            line-height: 25px;
+            font-size: 0.8em;
+            margin-top: 96px;
+            margin-left: 637px;
+        }
+        #ch::before {
+            content: "• ";
+            color: orange;
+            /* or whatever color you prefer */
+            font-size: 1.5em;
+            /* margin-left: 5px; */
+        }
+        .pdfbut {
+            position: relative;
+            width: 271px;
+            height: 45px;
+            background-color: orange;
+            margin-top: 320px;
+            border: none;
+            color: black;
+            text-align: center;
+            margin-left: 49px;
+        }
+        .photo-style {
+            width: 1024px;
+            height: 258px;
+        }
+        .imaginary {
+            width: 256px;
+            height: 256px;
+            float: left;
+        }
+        .about-us {
+            position: absolute;
+            background-image: url('../snap-test/bgweird.png');
+            width: 1024px;
+            height: 430px;
+            margin-top: 250px;
+            color: whitesmoke;
+        }
+        .contact-us {
+            position: absolute;
+            margin-bottom: 253px;
+            margin-left: 747px;
+        }
+        .col-5 {
+            margin-top: 48px;
+            margin-right: 72px;
+        }
+        .primo {
+            list-style: none;
+            line-height: 20px;
+        }
+        .color-me {
+            color: rgb(247, 173, 36);
+            font-size: 26px;
+        }
+        .title-contact {
+            color: white;
+            font-size: 14px;
+        }
+        /* .stuff-ic {
+            width: 680px;
+            height: 30px;
+            margin-bottom: 153px;
+            margin-right: 73px;
+        } */
+        .col-f {
+            position: absolute;
+            width: 1024px;
+            height: 30px;
+            margin-top: 683px;
+            white-space: nowrap;
+            margin-bottom: 18px;
+        }
+        .final-sentence {
+            color: black;
+            font-size: 14px;
+        }
+        .except {
+            font-size: 14px;
+            color: orange;
+        }
+        .par {
+            font-size: 14px;
+            color: black;
+        }
+    }
+    /*
+    **
+
+    *
+    *
+    *
+    *
+    *
+    *
+    *    1440px
+    *
+    */
+    
+    @media only screen and (min-width: 1440px) {
+        .topnav {
+            display: grid;
+            width: 1440px;
+            height: 100px;
+            list-style-type: none;
+            position: relative;
+            margin: auto;
+        }
+        .topnav .wrapper {
+            width: 517px;
+            height: 19px;
+            margin-left: 497px;
+        }
+        .topnav .ff {
+            float: left;
+            display: block;
+            text-align: center;
+            width: 115px;
+        }
+        .topnav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 6px 10px;
+            text-decoration: none;
+            font-size: 17px;
+            margin-top: 20px;
+            width: 115px;
+        }
+        .topnav .ff:hover {
+            border-top: solid rgb(3, 145, 3);
+        }
+        .hero-tonight {
+            background-image: url('../snap-test/desk.png');
+            width: 1440px;
+            height: 720px;
+            margin-left: -1px;
+            background-size: contain;
+            padding-bottom: 90px;
+            bottom: 60px;
+        }
+        .snapimg {
+            position: absolute;
+            width: 250px;
+            height: 190px;
+            margin-bottom: 176px;
+            right: 596px;
+            box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.7);
+        }
+        .container {
+            width: 454px;
+            height: 144px;
+            overflow: hidden;
+        }
+        .container .text-hero {
+            font-size: 30px;
+            position: absolute;
+            margin-left: 686px;
+            top: 342px;
+            width: 454px;
+            height: 144px;
+            color: white;
+            text-align: left;
+            overflow: hidden;
+        }
+        .desction {
+            height: 343px;
+            width: 1172px;
+            position: relative;
+            margin-left: 135px;
+        }
+        .title-snap {
+            /* width: 347px;
+            height: 36px; */
+            margin-top: 71px;
+            left: 339.5px;
+            right: 337.5px;
+            font-size: 25px;
+        }
+        .myrath {
+            left: 73px;
+            text-align: center;
+            font-size: 20px;
+            line-height: 25px;
+        }
+        .maglien {
+            width: 308px;
+            height: 50px;
+            background-color: orange;
+            border: none;
+            color: black;
+            text-align: center;
+            display: inline-block;
+            margin-top: 34px;
+            left: 380px;
+            margin-bottom: 53px;
+            font-size: 16px;
+        }
+        .secteurs-touches {
+            background-image: url('../snap-test/bg.png');
+            width: 1440px;
+            height: 573px;
+            position: relative;
+        }
+        .sabaton {
+            width: 282px;
+            height: 43px;
+            color: white;
+            font-size: 30px;
+            margin-left: 580px;
+            margin-top: 92px;
+        }
+        .col-1 {
+            width: 331px;
+            height: 188px;
+            top: 48px;
+            color: white;
+            line-height: 35px;
+            font-size: 22px;
+            margin-left: 159px;
+        }
+        .col-2 {
+            position: absolute;
+            width: 331px;
+            height: 188px;
+            top: 48px;
+            color: white;
+            line-height: 35px;
+            font-size: 22px;
+            margin-left: 554px;
+        }
+        .col-3 {
+            position: absolute;
+            width: 331px;
+            height: 188px;
+            color: white;
+            line-height: 35px;
+            font-size: 22px;
+            top: 48px;
+            margin-left: 975px;
+        }
+        .pdfbut {
+            position: absolute;
+            width: 330px;
+            height: 50px;
+            background-color: orange;
+            top: 103px;
+            border: none;
+            color: black;
+            text-align: center;
+            left: 554px;
+        }
+        .photo-style {
+            width: 1440px;
+            height: 363px;
+            display: inline;
+        }
+        .imaginary {
+            width: 360px;
+            height: 363px;
+        }
+        .about-us {
+            position: absolute;
+            background-image: url('../snap-test/bgweird.png');
+            width: 1440px;
+            height: 477px;
+            color: white;
+            margin-top: 363px;
+        }
+        .col-4 {
+            width: 187px;
+            height: 234px;
+            font-size: 15px;
+            margin-top: 99px;
+            margin-left: 136px;
+            text-align: left;
+        }
+        .col-6 {
+            margin-top: 30px;
+        }
+        .col-7 {
+            margin-top: 23px;
+            font-size: 15px;
+        }
+        .contact-us {
+            position: relative;
+            width: 258px;
+            height: 400px;
+            margin-top: 480px;
+            margin-left: 1047px;
+        }
+        .col-5 {
+            text-align: left;
+            line-height: 10px;
+        }
+        .title-contact {
+            font-size: 20px;
+        }
+        .color-me {
+            position: relative;
+            color: rgb(247, 173, 36);
+            font-size: 30px;
+        }
+        .stuff-ic {
+            width: 176px;
+            height: 20px;
+            margin-top: 135px;
+            margin-right: 71px;
+        }
+        .col-f {
+            width: 1440px;
+            height: 26px;
+            top: 1940px;
+            white-space: nowrap;
+        }
+        .final-sentence {
+            color: black;
+            font-size: 16px;
+        }
+        .except {
+            font-size: 16px;
+            color: orange;
+        }
+        .par {
+            font-size: 16px;
+            color: black;
+        }
+    }
